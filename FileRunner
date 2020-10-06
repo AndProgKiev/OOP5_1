@@ -1,0 +1,13 @@
+import java.io.IOException;
+
+public class FileRunner {
+    public static void main(String[] args) {
+
+        try {
+            NewFileFilter.copyFilterFile("D:\\Test\\","D:\\Test3\\",".docx");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+    }
+}
